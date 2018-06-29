@@ -16,7 +16,17 @@ $("#container").css('background-image', localStorage.getItem("#container"));
 			image: "banner/banner3.jpg",
 			landscape:"background/background03.jpg",
 			
-		}, 
+		},
+		4: {
+    image: "banner/banner4.jpg",
+    landscape:"background/background04.jpg",
+
+        },
+        5: {
+    image: "banner/banner5.jpg",
+    landscape:"background/background05.jpg", 
+
+}, 
 	};
 	var randomNumber = Math.floor((Math.random() * 3) + 1);
 	var URL = myData[randomNumber].image;
